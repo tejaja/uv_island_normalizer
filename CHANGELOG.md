@@ -1,0 +1,25 @@
+# Changelog
+
+## [1.3.0]
+- 基準アイランドを明示的に登録する2ステップ方式に変更
+  - 「① 基準に設定」ボタンで基準アイランドを登録
+  - 「② アイランドサイズを統一」ボタンで統一を実行
+  - 基準が未設定のとき統一ボタンをグレーアウト
+  - 基準のリセットボタンを追加
+- UIを全て日本語化
+
+## [1.2.0]
+- Blender 5.x での UV 選択 API 変更に対応
+  - `BMLoopUV.select` 削除への対応（`.uv_select_face` / `.uv_select_vert` attribute を使用）
+  - アイランド選択モードで `.uv_select_face` が更新されない場合に `.uv_select_vert` でフォールバック
+- Blender 3.6〜4.1 と 4.2〜5.x を実行時に自動判定して処理を分岐
+- `blender_manifest.toml` を追加し Blender 4.2 以降の Extension 形式に対応
+
+## [1.1.0]
+- `blender_manifest.toml` を追加（Blender 4.2 以降対応）
+- UIの選択モード表示を `prop_enum` から `prop(expand=True)` に変更（5.x 互換）
+
+## [1.0.0]
+- 初回リリース
+- UVエディターのサイドバーにパネルを追加
+- 選択中の UV アイランドを、アクティブアイランドのテクセル密度に合わせてスケール

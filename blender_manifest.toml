@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "uv_island_normalizer"
+version = "1.3.0"
+name = "UV Island Normalizer"
+tagline = "Normalize UV island sizes based on 3D world space scale"
+maintainer = "Claude"
+type = "add-on"
+
+blender_version_min = "3.6.0"
+
+license = ["SPDX:GPL-2.0-or-later"]
+
+tags = ["UV"]
