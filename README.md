@@ -98,11 +98,14 @@ UVエディターと3Dビューポートの選択を連動させる機能です�
 uv_island_normalizer/
 ├── __init__.py              # アドオン本体
 ├── blender_manifest.toml    # Blender 4.2以降用マニフェスト
-└── README.md                # 本ファイル
+├── CHANGELOG.md             # 変更履歴
+├── LICENSE                  # ライセンス
+├── README.md                # 本ファイル（日本語）
+└── README_EN.md             # 英語版README
 ```
 
 ---
 
 ## ライセンス
 
-個人・商用問わず自由にお使いいただけます。再配布・改変も可能です。
+[GPL-2.0-or-later](LICENSE)
